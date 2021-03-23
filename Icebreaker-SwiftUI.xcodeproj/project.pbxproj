@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,6 +14,7 @@
 		046A6BFB25EF2CE400A79844 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 046A6BFA25EF2CE400A79844 /* Preview Assets.xcassets */; };
 		046A6BFE25EF2CE400A79844 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 046A6BFC25EF2CE400A79844 /* LaunchScreen.storyboard */; };
 		046A6C0725EF30E300A79844 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 046A6C0625EF30E300A79844 /* GoogleService-Info.plist */; };
+		04804C5D25FC27A4001F97A2 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04804C5C25FC27A4001F97A2 /* Question.swift */; };
 		94685B7F733BD9909349A532 /* Pods_Icebreaker_SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F84A20B302CE367994DA03D1 /* Pods_Icebreaker_SwiftUI.framework */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +28,7 @@
 		046A6BFD25EF2CE400A79844 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		046A6BFF25EF2CE400A79844 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		046A6C0625EF30E300A79844 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		04804C5C25FC27A4001F97A2 /* Question.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 		0A53B385BA579F0E39FE0304 /* Pods-Icebreaker-SwiftUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Icebreaker-SwiftUI.release.xcconfig"; path = "Target Support Files/Pods-Icebreaker-SwiftUI/Pods-Icebreaker-SwiftUI.release.xcconfig"; sourceTree = "<group>"; };
 		D207C37E6C670BEB22364110 /* Pods-Icebreaker-SwiftUI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Icebreaker-SwiftUI.debug.xcconfig"; path = "Target Support Files/Pods-Icebreaker-SwiftUI/Pods-Icebreaker-SwiftUI.debug.xcconfig"; sourceTree = "<group>"; };
 		F84A20B302CE367994DA03D1 /* Pods_Icebreaker_SwiftUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Icebreaker_SwiftUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -68,6 +70,7 @@
 				046A6BF125EF2CDF00A79844 /* AppDelegate.swift */,
 				046A6BF325EF2CDF00A79844 /* SceneDelegate.swift */,
 				046A6BF525EF2CDF00A79844 /* ContentView.swift */,
+				04804C5C25FC27A4001F97A2 /* Question.swift */,
 				046A6BF725EF2CE400A79844 /* Assets.xcassets */,
 				046A6BFC25EF2CE400A79844 /* LaunchScreen.storyboard */,
 				046A6C0625EF30E300A79844 /* GoogleService-Info.plist */,
@@ -99,7 +102,6 @@
 				D207C37E6C670BEB22364110 /* Pods-Icebreaker-SwiftUI.debug.xcconfig */,
 				0A53B385BA579F0E39FE0304 /* Pods-Icebreaker-SwiftUI.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -219,6 +221,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				046A6BF225EF2CDF00A79844 /* AppDelegate.swift in Sources */,
+				04804C5D25FC27A4001F97A2 /* Question.swift in Sources */,
 				046A6BF425EF2CDF00A79844 /* SceneDelegate.swift in Sources */,
 				046A6BF625EF2CDF00A79844 /* ContentView.swift in Sources */,
 			);
